@@ -9,6 +9,7 @@ class HomePage extends Component{
      <p> test assignment </p>
     
      <Navbar/>
+     <HideShow/>
     </div> 
     
     );

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
+import HideShow from './HideShow';
+import UpperMenu from './UpperMenu';
 
 class HomePage extends Component{
   render(){
@@ -10,6 +12,7 @@ class HomePage extends Component{
     
      <Navbar/>
      <HideShow/>
+     <UpperMenu/>
     </div> 
     
     );

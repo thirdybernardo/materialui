@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import HideShow from './HideShow';
 import UpperMenu from './UpperMenu';
+import Home from '../pages/Home';
+import Rooms from '../pages/Rooms';
+import SingleRoom from '../pages/SingleRoom';
+
 
 class HomePage extends Component{
   render(){
@@ -11,6 +15,9 @@ class HomePage extends Component{
      <p> test assignment </p>
     
      <Navbar/>
+     <Home/>
+     <Rooms/>
+     <SingleRoom/>
      <HideShow/>
      <UpperMenu/>
     </div> 
